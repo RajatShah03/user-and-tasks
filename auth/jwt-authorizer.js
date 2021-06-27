@@ -4,7 +4,6 @@ const { ForbiddenError, UnauthorizedError } = require('../error/error')
 const authenticate = (req, res, next) => {
   try {
     const { headers: { authorization } } = req
-    console.log(authorization)
     if (authorization) {
       const accessToken = authorization.split(' ')[1]
 
