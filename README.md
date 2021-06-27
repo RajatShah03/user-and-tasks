@@ -5,5 +5,5 @@ An express based server for
   3. unit test cases
 
 # to run
-  yarn
-  yarn start
+  - yarn
+  - yarn start
